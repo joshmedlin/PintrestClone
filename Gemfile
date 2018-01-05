@@ -16,7 +16,7 @@ gem 'paperclip', '~> 5.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'acts_as_votable', '~> 0.11.1'
-gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'aws-sdk', '~> 2.10.42'
 gem 'simple_form', '~> 3.5'
 gem 'tzinfo-data', '~> 1.2017', '>= 1.2017.3'
 gem 'sdoc', '~> 0.4.2',          group: :doc
