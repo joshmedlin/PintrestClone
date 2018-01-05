@@ -4,6 +4,7 @@ class Pin < ActiveRecord::Base
 
 	has_attached_file :image, :styles => { :medium => "300x300>" },
 	            :storage => :s3,
+	            :bucket => ENV['AWS_BUCKET'],
               :s3_bucket => ENV['AWS_BUCKET'],
               :s3_permissions => 'public_read_write',
               :s3_protocol => 'https',
