@@ -82,8 +82,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.secret_key = '8b68054c001ebbc1e2ca8507012c22422b949713e968f35c1d581c8e93301774bf34ed11471f5f961da135887fb745ffedf8a337825dad3636a8b6a65dbc4a77'
-  
   # For Image Hosting on Amazon S3
   config.paperclip_defaults = {
     :storage => :s3,
