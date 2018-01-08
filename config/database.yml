@@ -9,6 +9,7 @@ development:
   database: my_database_development
   pool: 5
   timeout: 5000
+  host: localhost
   username: postgres
   password: P@ssw0rd
   
@@ -17,6 +18,7 @@ test:
   database: my_database_test
   pool: 5
   timeout: 5000
+  host: localhost
   username: postgres
   password: P@ssw0rd
 
@@ -25,5 +27,6 @@ production:
   database: my_database_production
   pool: 5
   timeout: 5000
+  host: localhost
   username: postgres
   password: postgres
